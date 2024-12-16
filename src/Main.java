@@ -1,13 +1,8 @@
 public class Main{
     public static void main(String[] args) {
-        String str = null;
+        String str = "壱百満";
+        int value;
+        value = Integer.parseInt(str);
 
-        try{
-            System.out.println(str.length());
-        }catch(NullPointerException e){
-            System.out.println("NullPointerExceptionが発生しました: " + e.getMessage());
-        }
-
-        }
-        
     }
+}
